@@ -32,7 +32,7 @@
 
 **Impossible**: Убрать турель, не использовать хилки и гранаты
 
-**True impossible** Не использовать хилки, гранаты, броню, убрать турель, прописать команду /c for _, tech in pairs(game.player.force.technologies) do 
+**True impossible**: Не использовать хилки, гранаты, броню, убрать турель, прописать команду /c for _, tech in pairs(game.player.force.technologies) do 
 	tech.researched=false
 	game.player.force.set_saved_technology_progress(tech, 0)
 end
